@@ -5,7 +5,7 @@ export const mockProducts: Product[] = [
     id: '1',
     name: 'Paracetamol 500mg',
     description: 'Effective relief from pain and fever. Suitable for adults and children over 12 years.',
-    price: 5.99,
+    price: 479.20, // 5.99 * 80
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'medicine painkiller',
     category: 'Pain Relief',
@@ -18,7 +18,7 @@ export const mockProducts: Product[] = [
     id: '2',
     name: 'Vitamin C 1000mg',
     description: 'Boosts immune system and provides antioxidant support.',
-    price: 12.50,
+    price: 1000.00, // 12.50 * 80
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'vitamin supplement',
     category: 'Vitamins & Supplements',
@@ -31,7 +31,7 @@ export const mockProducts: Product[] = [
     id: '3',
     name: 'Amoxicillin 250mg',
     description: 'Antibiotic for treating bacterial infections. Prescription required.',
-    price: 8.75,
+    price: 700.00, // 8.75 * 80
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'antibiotic pills',
     category: 'Prescription',
@@ -44,7 +44,7 @@ export const mockProducts: Product[] = [
     id: '4',
     name: 'Saline Nasal Spray',
     description: 'Gentle relief for nasal congestion and dryness.',
-    price: 7.20,
+    price: 576.00, // 7.20 * 80
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'nasal spray',
     category: 'Cold & Flu',
@@ -55,7 +55,7 @@ export const mockProducts: Product[] = [
     id: '5',
     name: 'Ibuprofen 200mg',
     description: 'Reduces inflammation and relieves pain.',
-    price: 6.50,
+    price: 520.00, // 6.50 * 80
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'painkiller medicine',
     category: 'Pain Relief',
@@ -65,7 +65,7 @@ export const mockProducts: Product[] = [
     id: '6',
     name: 'Multivitamin Gummies',
     description: 'Daily essential vitamins for adults in a tasty gummy form.',
-    price: 15.00,
+    price: 1200.00, // 15.00 * 80
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'vitamin gummies',
     category: 'Vitamins & Supplements',
@@ -78,7 +78,7 @@ export const mockLabTests: LabTest[] = [
     id: 'lt1',
     name: 'Complete Blood Count (CBC)',
     description: 'Measures different components of your blood, including red and white blood cells, hemoglobin, and platelets.',
-    price: 45.00,
+    price: 3600.00, // 45.00 * 80
     preparation: 'No special preparation needed. You can eat and drink normally.',
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'blood test',
@@ -87,7 +87,7 @@ export const mockLabTests: LabTest[] = [
     id: 'lt2',
     name: 'Lipid Panel',
     description: 'Measures fats and fatty substances used as a source of energy by your body. Includes cholesterol and triglycerides.',
-    price: 60.00,
+    price: 4800.00, // 60.00 * 80
     preparation: 'Fasting for 9-12 hours is usually required before this test.',
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'lab analysis',
@@ -96,7 +96,7 @@ export const mockLabTests: LabTest[] = [
     id: 'lt3',
     name: 'Thyroid Stimulating Hormone (TSH)',
     description: 'Checks thyroid gland function and helps diagnose thyroid disorders.',
-    price: 55.00,
+    price: 4400.00, // 55.00 * 80
     preparation: 'Inform your doctor about any medications you are taking.',
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'medical test',
@@ -105,7 +105,7 @@ export const mockLabTests: LabTest[] = [
     id: 'lt4',
     name: 'Glucose Test (Fasting)',
     description: 'Measures the level of glucose in your blood after an overnight fast. Used to screen for diabetes.',
-    price: 30.00,
+    price: 2400.00, // 30.00 * 80
     preparation: 'Fasting for at least 8 hours is required.',
     imageUrl: 'https://placehold.co/600x400.png',
     dataAiHint: 'diabetes test',

@@ -53,7 +53,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </CardDescription>
       </CardHeader>
       <CardContent className="p-4 flex-grow">
-        <p className="text-xl font-bold text-primary">${product.price.toFixed(2)}</p>
+        <p className="text-xl font-bold text-primary">₹{product.price.toFixed(2)}</p>
         {product.stock <= 0 && <p className="text-sm text-destructive">Out of stock</p>}
         {product.stock > 0 && product.stock < 10 && <p className="text-sm text-yellow-600">Low stock ({product.stock} left)</p>}
       </CardContent>

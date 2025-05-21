@@ -51,7 +51,7 @@ const LabTestCard: React.FC<LabTestCardProps> = ({ test }) => {
         <CardDescription className="text-sm h-16 overflow-hidden text-ellipsis">{test.description}</CardDescription>
       </CardHeader>
       <CardContent className="p-4 flex-grow">
-        <p className="text-xl font-bold text-primary">${test.price.toFixed(2)}</p>
+        <p className="text-xl font-bold text-primary">₹{test.price.toFixed(2)}</p>
         {test.preparation && <p className="text-xs text-muted-foreground mt-2"><strong>Preparation:</strong> {test.preparation}</p>}
       </CardContent>
       <CardFooter className="p-4 bg-muted/30 flex gap-2">
@@ -67,7 +67,7 @@ const LabTestCard: React.FC<LabTestCardProps> = ({ test }) => {
               <AlertDialogDescription className="max-h-60 overflow-y-auto">
                 <p className="mb-2">{test.description}</p>
                 {test.preparation && <p className="mb-2"><strong>Preparation:</strong> {test.preparation}</p>}
-                <p><strong>Price:</strong> ${test.price.toFixed(2)}</p>
+                <p><strong>Price:</strong> ₹{test.price.toFixed(2)}</p>
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>

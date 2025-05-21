@@ -47,7 +47,7 @@ export default function ProductDetailsClient({ product }: ProductDetailsClientPr
             </div>
           </CardHeader>
           <CardContent className="p-6 space-y-4 flex-grow">
-            <p className="text-3xl font-bold text-primary">${product.price.toFixed(2)}</p>
+            <p className="text-3xl font-bold text-primary">₹{product.price.toFixed(2)}</p>
             
             {product.dosage && <p><strong className="font-semibold">Dosage:</strong> {product.dosage}</p>}
             {product.usage && <p><strong className="font-semibold">Usage:</strong> {product.usage}</p>}
