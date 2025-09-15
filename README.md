@@ -1,5 +1,5 @@
 # MediQuick eCommerce Full Stack  App 
-MediQuick is a comprehensive healthcare and pharmacy management website designed to make medical support more accessible and convenient. It not only allows users to browse and order medicines but also connects them with doctors for online consultations.
+MediQuick is a comprehensive healthcare and pharmacy management website designed to make medical support more accessible and convenient. It  allows users to browse and order medicines, connects them with doctors for online consultations.
 
 Technologies Used:
 
