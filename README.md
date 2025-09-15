@@ -30,8 +30,6 @@ Used  LLM based AI coding assistance for final touches
 
 <img width="300" height="863" alt="Screenshot 2025-06-04 080031" src="https://github.com/user-attachments/assets/32a61d32-5c72-47be-84b1-2f5b0b4ce742" />
 
-<img width="300" height="867" alt="Screenshot 2025-06-04 080108" src="https://github.com/user-attachments/assets/f0df1154-a58b-4f73-8651-0213ffd1fdeb" />
-
 <img width="300" height="861" alt="Screenshot 2025-06-04 080139" src="https://github.com/user-attachments/assets/0272fbb1-5c05-40b8-9c26-1fa8d28cea6c" />
 
 
